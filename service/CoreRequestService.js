@@ -4,8 +4,7 @@ const numCPUs = require('os').cpus().length;
 
 exports.executeLoop = function(data){
   return new Promise(resolve=>{
-    
-    let collection = [];
+   
     let toNumber = parseInt(data.to);
     let pos = toNumber;
     let name = data.name; 
